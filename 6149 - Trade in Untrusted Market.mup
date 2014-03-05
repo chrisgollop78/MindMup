@@ -1,0 +1,128 @@
+{
+  "title": "#6149 - Trade in Untrusted Market",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Place Order",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "How is Market made?",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "No Prices",
+              "id": 6
+            },
+            "2": {
+              "title": "Wide prices from Market Maker",
+              "id": 7
+            },
+            "3": {
+              "title": "Wide prices from Pro trader",
+              "id": 8
+            },
+            "4": {
+              "title": "Prices from Broker members",
+              "id": 9,
+              "ideas": {
+                "1": {
+                  "title": "Limit",
+                  "id": 10
+                },
+                "2": {
+                  "title": "Stops",
+                  "id": 11
+                }
+              }
+            },
+            "1.5": {
+              "title": "Single side market",
+              "id": 26
+            }
+          }
+        },
+        "2": {
+          "title": "Affect of Retail Volatility Band",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "How is reference price obtained?",
+              "id": 14
+            }
+          }
+        },
+        "3": {
+          "title": "Order Type",
+          "id": 13
+        },
+        "4": {
+          "title": "Channel",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "API",
+              "id": 16
+            },
+            "2": {
+              "title": "UI",
+              "id": 17
+            },
+            "3": {
+              "title": "Fix",
+              "id": 18
+            }
+          }
+        },
+        "5": {
+          "title": "Reporting of trades",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "Execution reports",
+              "id": 20
+            },
+            "2": {
+              "title": "Trade reports",
+              "id": 21
+            },
+            "3": {
+              "title": "Market Data when subscribed to Trades",
+              "id": 22
+            }
+          }
+        },
+        "6": {
+          "title": "Inverted Market?",
+          "id": 23
+        },
+        "7": {
+          "title": "Doesn't make market trusted",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "Check interaction with ProTrader",
+              "id": 25
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "Security",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Use same flag as receiving Untrusted Market Data",
+          "id": 2,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
