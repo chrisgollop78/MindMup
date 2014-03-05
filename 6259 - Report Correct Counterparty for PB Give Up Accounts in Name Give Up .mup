@@ -1,0 +1,116 @@
+{
+  "title": "6259 - Report Correct Counterparty for PB Give Up Accounts in Name Give Up ",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Check current ATs",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "5320",
+          "id": 4
+        },
+        "2": {
+          "title": "5524",
+          "id": 5
+        },
+        "3": {
+          "title": "5534",
+          "id": 7
+        }
+      }
+    },
+    "2": {
+      "title": "NOP and Risk",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Unaffected",
+          "id": 10
+        },
+        "2": {
+          "title": "Still done per Sponsored Broker",
+          "id": 11
+        }
+      }
+    },
+    "3": {
+      "title": "Implementation details",
+      "id": 18,
+      "ideas": {
+        "1": {
+          "title": "Per instruction type",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "check all types (see instructionProcessor)",
+              "id": 20,
+              "ideas": {
+                "1": {
+                  "title": "Trade Limits",
+                  "id": 24
+                },
+                "2": {
+                  "title": "EV trade report partycodes",
+                  "id": 25
+                }
+              }
+            },
+            "2": {
+              "title": "cannot place contingent or close as execution only broker",
+              "id": 21
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "MTF Execution Report ",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "No longer show PartyCode as Broker Member but as their Sponsoring Member.",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Currently all Brokers sponsored by LMAX",
+              "id": 13,
+              "ideas": {
+                "1": {
+                  "title": "This may not always be the case",
+                  "id": 14
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "Trade Report",
+      "id": 15,
+      "ideas": {
+        "1": {
+          "title": "Should remain with the double give up (EXP-LMB,  LMB-GS)",
+          "id": 16,
+          "ideas": {
+            "1": {
+              "title": "Check SponsoredMemberTradeReportingAcceptanceTest",
+              "id": 27
+            }
+          }
+        },
+        "2": {
+          "title": "Update DSL? Should current BROKER be updated to be sponsorde",
+          "id": 22
+        }
+      }
+    },
+    "-3": {
+      "title": "Sponsored v Execution Only",
+      "id": 23
+    }
+  },
+  "links": []
+}
