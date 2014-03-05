@@ -1,0 +1,618 @@
+{
+  "title": "MarkedDataViewer",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Navigation",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Drag the chart with the mouse",
+          "id": 79
+        }
+      }
+    },
+    "2": {
+      "title": "Price points table",
+      "id": 5
+    },
+    "3": {
+      "title": "Time range",
+      "id": 7
+    },
+    "4": {
+      "title": "URL",
+      "id": 9
+    },
+    "5": {
+      "title": "Live",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "LevelDB",
+          "id": 20
+        },
+        "2": {
+          "title": "Trades",
+          "id": 112
+        },
+        "3": {
+          "title": "Order book status events",
+          "id": 116,
+          "ideas": {
+            "1": {
+              "title": "Open/close",
+              "id": 117,
+              "ideas": {
+                "1": {
+                  "title": "White Line",
+                  "id": 144
+                }
+              }
+            },
+            "2": {
+              "title": "Suspended",
+              "id": 118,
+              "ideas": {
+                "1": {
+                  "title": "Red line on chart when the state changes",
+                  "id": 120
+                }
+              }
+            },
+            "3": {
+              "title": "Trusted/untrusted",
+              "id": 119,
+              "ideas": {
+                "1": {
+                  "title": "Yellow line when it chnages",
+                  "id": 121
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "title": "Deployment",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Professional, IBB",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "Decision has to be taken by middle of Oct if MDV is ready for prime time by Jan 2014",
+              "id": 72,
+              "ideas": {
+                "1": {
+                  "title": "This means full replacement of the functionality in use and serviced by Scila",
+                  "id": 73,
+                  "ideas": {
+                    "1": {
+                      "title": "Not all Scila is needed",
+                      "id": 74
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "Staging",
+          "id": 15
+        },
+        "3": {
+          "title": "Hardware requirements",
+          "id": 16,
+          "ideas": {
+            "1": {
+              "title": "Separate box",
+              "id": 69,
+              "ideas": {
+                "1": {
+                  "title": "Scila has been moved to the same machine as EV-Delta to get the extra box",
+                  "id": 70
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "Feature flags",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "feature.5874.marketDataIndexing",
+              "id": 36,
+              "ideas": {}
+            },
+            "2": {
+              "title": "feature.5869.disaggregateOrderBook",
+              "id": 39
+            },
+            "3": {
+              "title": "When a release candidate is taken the flags need to be switched on or off; a conscious decision needs to be taken depending on perf stats, hardware availability etc",
+              "id": 88,
+              "ideas": {
+                "1": {
+                  "title": "Up till IT122 MDV is switched off in Professional/IBB",
+                  "id": 89
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Perf",
+          "id": 41,
+          "ideas": {}
+        }
+      }
+    },
+    "7": {
+      "title": "Showcases",
+      "id": 31,
+      "ideas": {
+        "2": {
+          "title": "Chet has used it from time to time on a local machine",
+          "id": 33
+        }
+      }
+    },
+    "8": {
+      "title": "Bucket size and resolution",
+      "id": 50,
+      "ideas": {
+        "1": {
+          "title": "Trades are aggregated by the server (per transaction)",
+          "id": 143
+        }
+      }
+    },
+    "9": {
+      "title": "Acceptance Tests",
+      "id": 80,
+      "ideas": {
+        "1": {
+          "title": "There's an API and an UI driver",
+          "id": 81,
+          "ideas": {
+            "1": {
+              "title": "Limited testing for the UI as 80% of the UI is the chart",
+              "id": 82,
+              "ideas": {
+                "1": {
+                  "title": "There's no DSL for testing the chart behaviour",
+                  "id": 83,
+                  "ideas": {
+                    "1": {
+                      "title": "Extra exploratory testing on this",
+                      "id": 84,
+                      "ideas": {
+                        "1": {
+                          "title": "Basically run the API ATs and see how the chart behaves",
+                          "id": 85
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "It was deemed to costly to create ATs (AdrianR & AdrianS)",
+                      "id": 86,
+                      "ideas": {
+                        "1": {
+                          "title": "One way would've been the use of Sikuli",
+                          "id": 87
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Would be worth looking into asserting values on the X, Y axis etc in SVG to give more confidence in the chart ",
+                      "id": 150,
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "19": {
+      "title": "Zoom",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "On specific area",
+          "id": 25
+        },
+        "2": {
+          "title": "On the price scale",
+          "id": 26,
+          "ideas": {
+            "1": {
+              "title": "Using scroll",
+              "id": 28
+            }
+          }
+        },
+        "3": {
+          "title": "On time scale",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "Using Shift+Scroll OR the slider above the chart",
+              "id": 30
+            }
+          }
+        }
+      }
+    },
+    "29": {
+      "title": "Chart",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "Price scale",
+          "id": 23
+        },
+        "2": {
+          "title": "Time scale",
+          "id": 24
+        }
+      }
+    },
+    "39": {
+      "title": "Usage Patterns",
+      "id": 134,
+      "ideas": {
+        "1": {
+          "title": "2 instruments open per Exchange (currently 2*2 = 4) per person in Market Ops (5*4=20 total)",
+          "id": 135,
+          "ideas": {
+            "1": {
+              "title": "Open at a \"live market\" resolution of the last 10 minutes",
+              "id": 137
+            },
+            "2": {
+              "title": "Usually major currencies with overlap between users",
+              "id": 138
+            },
+            "3": {
+              "title": "Extra MDV users are envisaged",
+              "id": 136
+            }
+          }
+        },
+        "2": {
+          "title": "Used with (Application (tabs)): Excel (3), Outlook (1), Chrome (3), Admin Console, Impersonation",
+          "id": 139
+        },
+        "3": {
+          "title": "Windows",
+          "id": 140
+        },
+        "4": {
+          "title": "Generally closed overnight ",
+          "id": 142
+        }
+      }
+    },
+    "-3": {
+      "title": "Instrument selector",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "Withdrawn instruments",
+          "id": 91,
+          "ideas": {
+            "1": {
+              "title": "Show up in a lighter shade of gray",
+              "id": 92
+            },
+            "2": {
+              "title": "If an instrument is created while the MDV is opened, you can still search by the instrument ID but it will give you UNKNOWN as its name",
+              "id": 93,
+              "ideas": {
+                "1": {
+                  "title": "Not really a live scenario; more of an edge case usually exacerbated by how we do our exploratory testing",
+                  "id": 94
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-4": {
+      "title": "Performance",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "Through a perf run",
+          "id": 42,
+          "ideas": {
+            "1": {
+              "title": "Using MDV opened while perf is running",
+              "id": 44,
+              "ideas": {
+                "1": {
+                  "title": "Multiple instruments opened in several browser windows",
+                  "id": 45
+                },
+                "2": {
+                  "title": "No NAKs have to show up after such a run",
+                  "id": 95
+                },
+                "3": {
+                  "title": "Historic replay during perf run",
+                  "id": 130
+                }
+              }
+            },
+            "2": {
+              "title": "Make sure trades take place while going through a perf run",
+              "id": 96,
+              "ideas": {}
+            },
+            "3": {
+              "title": "Leave overnight?",
+              "id": 141
+            }
+          }
+        },
+        "2": {
+          "title": "Tricks taken to speed up the chart",
+          "id": 52,
+          "ideas": {
+            "1": {
+              "title": "The main principle is to pull in only the necessary data",
+              "id": 53
+            }
+          }
+        },
+        "4": {
+          "title": "Memory consumption",
+          "id": 57,
+          "ideas": {
+            "1": {
+              "title": "Of the webapp",
+              "id": 54,
+              "ideas": {
+                "1": {
+                  "title": "See TaskManager in Chrome",
+                  "id": 55,
+                  "ideas": {
+                    "1": {
+                      "title": "Have seen memory leaks amounting to a 2 or more GB of memory",
+                      "id": 62,
+                      "ideas": {
+                        "1": {
+                          "title": "Usually get fixed but different Chrome versions will yield different memory profiles; try and use one version in front of the official one",
+                          "id": 63
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Of the gateway",
+              "id": 59,
+              "ideas": {
+                "2": {
+                  "title": "It's probably been allocated an X amount of memory and if it runs out and crashes it gets upped",
+                  "id": 65
+                },
+                "3": {
+                  "title": "Use Jodie in perf to look at the trends",
+                  "id": 68
+                }
+              }
+            },
+            "3": {
+              "title": "Of the MDS with MDV working",
+              "id": 61,
+              "ideas": {
+                "2": {
+                  "title": "Use Jodie in perf to look at the trends",
+                  "id": 67
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Concerns in terms of functionality with huge impact on MDV; usually whatever event from any part of the system causes a fan-out of events flowing from the EV into the MDS",
+          "id": 99,
+          "ideas": {
+            "3": {
+              "title": "Usually the replay (historic data) is the most impacted; the live stream of data will probably be covered while trying to generate data for testing the historic replay",
+              "id": 107,
+              "ideas": {
+                "1": {
+                  "title": "Cancel on disconnect",
+                  "id": 103,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Liquidation on accounts with a lot of positions",
+                  "id": 101,
+                  "ideas": {}
+                },
+                "3": {
+                  "title": "Market sudenly becomes trusted after X number of price events",
+                  "id": 108,
+                  "ideas": {}
+                },
+                "4": {
+                  "title": "Market coming back from an excessive inversion",
+                  "id": 110,
+                  "ideas": {}
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#c0c0c0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-6": {
+      "title": "Recoverability",
+      "id": 17,
+      "ideas": {
+        "1": {
+          "title": "Market Data Service going down/restarted",
+          "id": 18
+        },
+        "2": {
+          "title": "Market Data Viewer Gateway going down/restarted",
+          "id": 19
+        }
+      }
+    },
+    "-7": {
+      "title": "Browser compatibility",
+      "id": 46,
+      "ideas": {
+        "1": {
+          "title": "Tested on Chrome 25",
+          "id": 47
+        },
+        "2": {
+          "title": "Chrome 31 is coming out with a different WebSocket standard version",
+          "id": 48,
+          "ideas": {
+            "1": {
+              "title": "Breaks the MDV webapp; Adrian Sutton notified by email",
+              "id": 49
+            }
+          }
+        }
+      }
+    },
+    "-8": {
+      "title": "Alerts",
+      "id": 75,
+      "ideas": {
+        "1": {
+          "title": "Scila has some useful features in terms of monitoring alers",
+          "id": 76,
+          "ideas": {
+            "1": {
+              "title": "Work hasn't been started; might affect the decision to cancel Scila",
+              "id": 77,
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "5.5": {
+      "title": "Historic replay",
+      "id": 113,
+      "ideas": {
+        "1": {
+          "title": "Same as live",
+          "id": 115
+        },
+        "2": {
+          "title": "Historic Indexing",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Files",
+              "id": 21
+            }
+          }
+        },
+        "3": {
+          "title": "Can use files from /var/tradex/journal/market-data directory to replay",
+          "id": 145
+        }
+      }
+    },
+    "-9": {
+      "title": "Keeping track",
+      "id": 124,
+      "ideas": {
+        "1": {
+          "title": "Trello boards",
+          "id": 125
+        },
+        "2": {
+          "title": "Mingle planning wall",
+          "id": 126,
+          "ideas": {
+            "1": {
+              "title": "Make sure the story status is kept up to date",
+              "id": 128,
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-10": {
+      "title": "Supported Browsers",
+      "id": 131,
+      "ideas": {
+        "1": {
+          "title": "Chrome only",
+          "id": 132
+        },
+        "2": {
+          "title": "Known issues with Firefox and scrolling/zooming on the chart",
+          "id": 133
+        }
+      }
+    },
+    "-11": {
+      "title": "Testing In Live",
+      "id": 146,
+      "ideas": {
+        "1": {
+          "title": "Consider TiL tests to show MDV and MDS is alive",
+          "id": 147,
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
