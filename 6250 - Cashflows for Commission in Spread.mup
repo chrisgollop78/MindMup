@@ -1,0 +1,188 @@
+{
+  "title": "6250 - Cashflows for Commission in Spread",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "2": {
+      "title": "Add Commission in Spread Cashflow",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "Commission in Spread = Absolute value of ((MTF Price - Broker Price) x qty x unit price)",
+          "id": 2,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "2": {
+          "title": "Should not affect Cash Balance",
+          "id": 7
+        },
+        "3": {
+          "title": "Add to CSV download",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "Which reports?",
+              "id": 17,
+              "ideas": {
+                "1": {
+                  "title": "Admin Console?",
+                  "id": 20,
+                  "ideas": {
+                    "1": {
+                      "title": "CashFlow",
+                      "id": 28
+                    },
+                    "2": {
+                      "title": "Aggregate CashFlow",
+                      "id": 29,
+                      "ideas": {
+                        "1": {
+                          "title": "Aggregate COMMISSION_SPREAD",
+                          "id": 35
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Data Warehouse?",
+                  "id": 21,
+                  "ideas": {
+                    "1": {
+                      "title": "Commission Analysis Report?",
+                      "id": 22,
+                      "ideas": {}
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Should there be a \"Rolled to USD equivalent\"",
+              "id": 19
+            }
+          }
+        },
+        "4": {
+          "title": "Generated every time it is charged",
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Fill",
+              "id": 12
+            },
+            "2": {
+              "title": "Partial FIll",
+              "id": 13,
+              "ideas": {
+                "1": {
+                  "title": "Continues to fill",
+                  "id": 15
+                }
+              }
+            },
+            "3": {
+              "title": "Stops firing",
+              "id": 14
+            },
+            "4": {
+              "title": "Check all BFT order types",
+              "id": 16,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Label it COMMISSION_SPREAD",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "Does not also contain COMMISSION for same execution",
+              "id": 27
+            }
+          }
+        },
+        "6": {
+          "title": "Should work for LMAX and non LMAX sponsoring brokers",
+          "id": 37,
+          "ideas": {}
+        }
+      }
+    },
+    "-1": {
+      "title": "Add Broker Execution ID",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Only if Broker Trade",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "<blank.> if not Broker Trade",
+              "id": 10
+            }
+          }
+        },
+        "2": {
+          "title": "Add to CSV download",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "CashFlow",
+              "id": 32
+            },
+            "2": {
+              "title": "Aggregate CashFlow",
+              "id": 33,
+              "ideas": {
+                "1": {
+                  "title": "Column Header only, no need to add all ExecIds for Aggregates",
+                  "id": 34
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Cashflow types: \nCOMMISSION\nREVENUE_SHARE\nREVENUE_TRANSFER\nPROFIT_LOSS",
+          "id": 9
+        }
+      }
+    },
+    "-2": {
+      "title": "Introducers ",
+      "id": 24,
+      "ideas": {
+        "1": {
+          "title": "Rate cards/Revenue Share",
+          "id": 26,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Yes, should work. Smoke test but not requirement",
+              "id": 36
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#E0E0E0"
+        }
+      }
+    }
+  },
+  "links": []
+}
