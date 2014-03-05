@@ -1,0 +1,188 @@
+{
+  "title": "Report Commission in Spread on GiveUp trade to PB",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "EV to emit a single trade - the \"street trade\"",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Should not show Sponsored Account",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Sponsor v General Member",
+              "id": 4
+            },
+            "2": {
+              "title": "Sponsor v Sponsor",
+              "id": 5
+            }
+          }
+        },
+        "2": {
+          "title": "Goes through Trade Reporting",
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Rules/Perspectives applied",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Will be at the actual trade price (ie no Commission in Spread)",
+          "id": 15
+        }
+      }
+    },
+    "2": {
+      "title": "Questions",
+      "id": 16,
+      "ideas": {
+        "1": {
+          "title": "Trade Reporting",
+          "id": 17,
+          "ideas": {
+            "1": {
+              "title": "All reported",
+              "id": 18
+            },
+            "2": {
+              "title": "DR",
+              "id": 19
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "Current AT coverage",
+      "id": 25,
+      "ideas": {
+        "1": {
+          "title": "Commission in Spread give up trades & trade reports",
+          "id": 26
+        },
+        "2": {
+          "title": "Sponsored gives up trades & trade reports",
+          "id": 27
+        },
+        "3": {
+          "title": "Sponsored Contra and Off Order Book",
+          "id": 28
+        },
+        "4": {
+          "title": "Commission in Spread Contra and Off Order Book",
+          "id": 29
+        }
+      }
+    },
+    "-1": {
+      "title": "Give up Trade",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "Should show commission in spread price (if this is applicable)",
+          "id": 8
+        },
+        "2": {
+          "title": "Sponsor v Sponsee",
+          "id": 9
+        },
+        "3": {
+          "title": "Goes through Trade Reporting",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "Rules/Perspectives applied",
+              "id": 12
+            }
+          }
+        },
+        "4": {
+          "title": "Should have same ExecutionId",
+          "id": 36
+        }
+      }
+    },
+    "-3": {
+      "title": "Admin Console",
+      "id": 23,
+      "ideas": {
+        "1": {
+          "title": "Contra Trades",
+          "id": 20,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Only need to contra the \"street  trade\" and the \"give up\" should also be contra'd",
+              "id": 21
+            },
+            "2": {
+              "title": "Should not be able to enter the \"give up\" for a Contra Trade",
+              "id": 30
+            }
+          }
+        },
+        "2": {
+          "title": "Off Order Book Trades",
+          "id": 22,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Only need to off order book the \"street  trade\" and the \"give up\" should also be  produced",
+              "id": 24,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-4": {
+      "title": "Downloads",
+      "id": 31,
+      "ideas": {
+        "1": {
+          "title": "Trades",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "Should contain \"give up\" trades",
+              "id": 34
+            }
+          }
+        },
+        "2": {
+          "title": "Trade Reports",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "Shouldn't change",
+              "id": 35
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
