@@ -1,0 +1,117 @@
+{
+  "title": "6063 NOP & GL in Broker Portal",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Security",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Role: VIEW_BROKER_RISK",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "UI",
+              "id": 21
+            },
+            "2": {
+              "title": "API",
+              "id": 22
+            }
+          }
+        },
+        "2": {
+          "title": "Usual API URL security",
+          "id": 4
+        }
+      }
+    },
+    "2": {
+      "title": "Information",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "NOP & GL limits",
+          "id": 13
+        },
+        "2": {
+          "title": "NOP & GL utilised",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "Per value date",
+              "id": 23
+            },
+            "2": {
+              "title": "Removed after date passes",
+              "id": 24,
+              "ideas": {}
+            },
+            "3": {
+              "title": "In Date Value order",
+              "id": 26
+            }
+          }
+        },
+        "3": {
+          "title": "Updates UI in line with changes",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "Utilisation",
+              "id": 16
+            },
+            "2": {
+              "title": "Limits from Admin Console",
+              "id": 17
+            }
+          }
+        },
+        "4": {
+          "title": "Cash Exposures",
+          "id": 19
+        },
+        "5": {
+          "title": "All available via API and UI",
+          "id": 20
+        }
+      }
+    },
+    "-1": {
+      "title": "Polling",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "Doesn't poll to EV",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Cache in gateway",
+              "id": 7,
+              "ideas": {
+                "1": {
+                  "title": "Startup of gateway?",
+                  "id": 9,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Update every second or less",
+              "id": 8
+            },
+            "3": {
+              "title": "Empty values (ie unlimited) handled",
+              "id": 11
+            }
+          }
+        }
+      }
+    }
+  }
+}
