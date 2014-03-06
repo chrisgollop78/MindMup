@@ -17,7 +17,13 @@
             },
             "2": {
               "title": "Sponsor v Sponsor",
-              "id": 5
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "This is not emitted by Trade Reporting",
+                  "id": 38
+                }
+              }
             }
           }
         },
@@ -51,7 +57,7 @@
           "id": 17,
           "ideas": {
             "1": {
-              "title": "All reported",
+              "title": "Performance under load",
               "id": 18
             },
             "2": {
@@ -68,19 +74,40 @@
       "ideas": {
         "1": {
           "title": "Commission in Spread give up trades & trade reports",
-          "id": 26
+          "id": 26,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
         },
         "2": {
-          "title": "Sponsored gives up trades & trade reports",
-          "id": 27
+          "title": "Sponsored give up trades & trade reports",
+          "id": 27,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
         },
         "3": {
           "title": "Sponsored Contra and Off Order Book",
-          "id": 28
+          "id": 28,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
         },
         "4": {
           "title": "Commission in Spread Contra and Off Order Book",
-          "id": 29
+          "id": 29,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          },
+          "ideas": {}
         }
       }
     },
@@ -94,7 +121,13 @@
         },
         "2": {
           "title": "Sponsor v Sponsee",
-          "id": 9
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Can be 2 if trade was between two sponsored parties",
+              "id": 39
+            }
+          }
         },
         "3": {
           "title": "Goes through Trade Reporting",
