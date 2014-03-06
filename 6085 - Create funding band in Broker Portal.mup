@@ -1,0 +1,190 @@
+{
+  "title": "6085 - Create funding band in Broker Portal",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Roles",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Manage funding bands",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Existing bands viewing and editing",
+              "id": 5
+            },
+            "2": {
+              "title": "Creating band",
+              "id": 7
+            },
+            "3": {
+              "title": "accounts on selected bands",
+              "id": 8
+            }
+          }
+        },
+        "2": {
+          "title": "Assign funding bands",
+          "id": 4
+        },
+        "3": {
+          "title": "Other type of roles can't view or assign",
+          "id": 31,
+          "ideas": {
+            "1": {
+              "title": "UI verification",
+              "id": 32
+            },
+            "2": {
+              "title": "API verification",
+              "id": 33
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Bands",
+      "id": 18,
+      "ideas": {
+        "1": {
+          "title": "Editing Band",
+          "id": 9,
+          "ideas": {
+            "2": {
+              "title": "Name change",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "valid names",
+                  "id": 13
+                },
+                "2": {
+                  "title": "existing name check",
+                  "id": 14
+                }
+              }
+            },
+            "3": {
+              "title": "funding adjustment validation",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "Min/Max Valid/Invalid",
+                  "id": 16
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "2": {
+          "title": "Creating Band",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "Name",
+              "id": 20,
+              "ideas": {
+                "1": {
+                  "title": "valid names",
+                  "id": 21,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "existing name check",
+                  "id": 22,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": " Instrument List",
+          "id": 27,
+          "ideas": {
+            "1": {
+              "title": "List of instruments? Instrument access check",
+              "id": 11,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            },
+            "2": {
+              "title": "Currencies only",
+              "id": 29
+            },
+            "3": {
+              "title": "Order of the display?",
+              "id": 30,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "Instruments",
+      "id": 23,
+      "ideas": {
+        "1": {
+          "title": "Add new",
+          "id": 24
+        },
+        "2": {
+          "title": "Withdraw",
+          "id": 25
+        },
+        "3": {
+          "title": "expire",
+          "id": 26
+        },
+        "4": {
+          "title": "Instrument funding base rate updates",
+          "id": 37,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "Broker member",
+      "id": 34,
+      "ideas": {
+        "1": {
+          "title": "new member funding",
+          "id": 35
+        },
+        "2": {
+          "title": "Updating funding ",
+          "id": 36
+        }
+      }
+    }
+  },
+  "links": []
+}
