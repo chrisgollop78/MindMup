@@ -90,6 +90,12 @@
             "style": {
               "background": "#ff0000"
             }
+          },
+          "ideas": {
+            "1": {
+              "title": "Add if Give Up Trades are added to download",
+              "id": 50
+            }
           }
         },
         "6": {
@@ -98,6 +104,12 @@
           "attr": {
             "style": {
               "background": "#ff0000"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Trade Report ID for BNP are sent with BNP_ but recorded  as the ID without the prefix",
+              "id": 51
             }
           }
         }
