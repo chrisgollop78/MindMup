@@ -58,11 +58,21 @@
           "ideas": {
             "1": {
               "title": "Performance under load",
-              "id": 18
+              "id": 18,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
             },
             "2": {
               "title": "DR",
-              "id": 19
+              "id": 19,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
             }
           }
         }
@@ -111,13 +121,40 @@
         }
       }
     },
+    "4": {
+      "title": "Trade Source",
+      "id": 41,
+      "ideas": {
+        "1": {
+          "title": "To be added to all stored trades",
+          "id": 42,
+          "ideas": {
+            "1": {
+              "title": "Affect Downloads?",
+              "id": 43,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "-1": {
       "title": "Give up Trade",
       "id": 6,
       "ideas": {
         "1": {
           "title": "Should show commission in spread price (if this is applicable)",
-          "id": 8
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "known as the \"dirty\" price",
+              "id": 40
+            }
+          }
         },
         "2": {
           "title": "Sponsor v Sponsee",
