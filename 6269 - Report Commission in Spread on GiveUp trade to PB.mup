@@ -3,51 +3,6 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
-      "title": "EV to emit a single trade - the \"street trade\"",
-      "id": 2,
-      "ideas": {
-        "1": {
-          "title": "Should not show Sponsored Account",
-          "id": 3,
-          "ideas": {
-            "1": {
-              "title": "Sponsor v General Member",
-              "id": 4
-            },
-            "2": {
-              "title": "Sponsor v Sponsor",
-              "id": 5,
-              "ideas": {
-                "1": {
-                  "title": "This is not emitted by Trade Reporting",
-                  "id": 38
-                }
-              }
-            }
-          }
-        },
-        "2": {
-          "title": "Goes through Trade Reporting",
-          "id": 11,
-          "ideas": {
-            "1": {
-              "title": "Rules/Perspectives applied",
-              "id": 13,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
-            }
-          }
-        },
-        "3": {
-          "title": "Will be at the actual trade price (ie no Commission in Spread) known as the \"clean\" price",
-          "id": 15
-        }
-      }
-    },
     "2": {
       "title": "Questions",
       "id": 16,
@@ -68,6 +23,15 @@
             "2": {
               "title": "DR",
               "id": 19,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            },
+            "3": {
+              "title": "Integrity between Trade Report tables and tfx_trade.trade table",
+              "id": 46,
               "attr": {
                 "style": {
                   "background": "#ff0000"
@@ -118,6 +82,24 @@
             }
           },
           "ideas": {}
+        },
+        "5": {
+          "title": "Trade Download for Commission In Spread Trades",
+          "id": 48,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        },
+        "6": {
+          "title": "Trade Report Destination Download for Commission In Spread Trades",
+          "id": 49,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
         }
       }
     },
@@ -137,6 +119,41 @@
                   "background": "#ff0000"
                 }
               }
+            },
+            "2": {
+              "title": "At present either EV (street trades at clean price) or EMS (give up trades at dirty price).",
+              "id": 44
+            },
+            "3": {
+              "title": "Only added to TRS.trade table",
+              "id": 45
+            }
+          }
+        }
+      }
+    },
+    "14": {
+      "title": "Downloads",
+      "id": 31,
+      "ideas": {
+        "1": {
+          "title": "Trades",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "Should contain \"give up\" trades",
+              "id": 34
+            }
+          }
+        },
+        "2": {
+          "title": "Trade Reports",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "Shouldn't change",
+              "id": 35,
+              "ideas": {}
             }
           }
         }
@@ -161,7 +178,7 @@
           "id": 9,
           "ideas": {
             "1": {
-              "title": "Can be 2 if trade was between two sponsored parties",
+              "title": "Can be 2 of these if trade was between two sponsored parties",
               "id": 39
             }
           }
@@ -227,29 +244,48 @@
         }
       }
     },
-    "-4": {
-      "title": "Downloads",
-      "id": 31,
+    "-0.5": {
+      "title": "EV to emit a single trade - the \"street trade\"",
+      "id": 2,
       "ideas": {
         "1": {
-          "title": "Trades",
-          "id": 32,
+          "title": "Should not show Sponsored Account",
+          "id": 3,
           "ideas": {
             "1": {
-              "title": "Should contain \"give up\" trades",
-              "id": 34
+              "title": "Sponsor v General Member",
+              "id": 4
+            },
+            "2": {
+              "title": "Sponsor v Sponsor",
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "This is not emitted by Trade Reporting",
+                  "id": 38
+                }
+              }
             }
           }
         },
         "2": {
-          "title": "Trade Reports",
-          "id": 33,
+          "title": "Goes through Trade Reporting",
+          "id": 11,
           "ideas": {
             "1": {
-              "title": "Shouldn't change",
-              "id": 35
+              "title": "Rules/Perspectives applied",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             }
           }
+        },
+        "3": {
+          "title": "Will be at the actual trade price (ie no Commission in Spread) known as the \"clean\" price",
+          "id": 15
         }
       }
     }
