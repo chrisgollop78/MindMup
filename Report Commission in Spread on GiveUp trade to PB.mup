@@ -43,7 +43,7 @@
           }
         },
         "3": {
-          "title": "Will be at the actual trade price (ie no Commission in Spread)",
+          "title": "Will be at the actual trade price (ie no Commission in Spread) known as the \"clean\" price",
           "id": 15
         }
       }
