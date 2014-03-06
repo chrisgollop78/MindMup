@@ -1,0 +1,2093 @@
+{
+  "title": "TestA Award",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "The business case and strategic approach ",
+      "id": "4.gd29b05422685fdf33",
+      "ideas": {
+        "2": {
+          "title": "No Exchange = No Business \nCan afford limited production downtime",
+          "ideas": {
+            "1": {
+              "title": "CD",
+              "id": "315.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "2": {
+              "title": "CI",
+              "ideas": {
+                "1": {
+                  "title": "Use Acceptance Tests (Business Case)/Integration Tests(Edge Case)/Unit Tests(Unit)",
+                  "ideas": {
+                    "1": {
+                      "title": "elease platforms - Staging, MMT, ATE, Production to give us places to find issues early",
+                      "id": "318.gd754c9cd6c89030c9",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Do not want to encase code in concrete but enough to pick up issues",
+                      "ideas": {
+                        "1": {
+                          "title": "Exploratory testing",
+                          "id": "320.gd754c9cd6c89030c9",
+                          "attr": {
+                            "style": {
+                              "background": "#ff9900"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "BA/QA very close to the codebase",
+                          "id": "321.gd754c9cd6c89030c9",
+                          "attr": {
+                            "style": {
+                              "background": "#ff9900"
+                            }
+                          }
+                        }
+                      },
+                      "id": "319.gd754c9cd6c89030c9",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "id": "317.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "id": "316.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "3": {
+              "title": "Sustainable",
+              "ideas": {
+                "1": {
+                  "title": "Specialisms but not defined/strict role - we deliver deployable software",
+                  "id": "323.gd754c9cd6c89030c9",
+                  "ideas": {
+                    "1": {
+                      "title": "Everyone owns Quality",
+                      "id": "345.gd754c9cd6c89030c9",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Rotation",
+                  "id": "324.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Evolve and adapt - add in New Tests and Test Types as needed",
+                  "id": "325.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Ensure FSA Regulation",
+                  "id": "346.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "id": "322.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "4": {
+              "title": "Use user data - logs, monitoring, perf (the industry regs help us here as we collect alot of data), anticipate issues before they cause problems",
+              "id": "326.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "id": "314.gd754c9cd6c89030c9",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "3": {
+          "title": "Connectivity",
+          "ideas": {
+            "1": {
+              "title": "Different APIs",
+              "id": "332.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "id": "331.gd754c9cd6c89030c9",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "4": {
+          "title": "Low Latency",
+          "ideas": {
+            "1": {
+              "title": "Azul partnership",
+              "id": "330.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "2": {
+              "title": "Rapid Addition patrnership",
+              "id": "333.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "3": {
+              "title": "LBM",
+              "id": "334.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "id": "329.gd754c9cd6c89030c9",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "5": {
+          "title": "Performance",
+          "ideas": {
+            "1": {
+              "title": " (dedicated Capacity Management team).",
+              "id": "328.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "id": "327.gd754c9cd6c89030c9",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "6": {
+          "title": "Transparancy",
+          "id": "341.gd754c9cd6c89030c9",
+          "ideas": {
+            "1": {
+              "title": "OpenSource",
+              "id": "342.gd754c9cd6c89030c9",
+              "ideas": {
+                "1": {
+                  "title": "GitHub",
+                  "id": "343.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff9900"
+        }
+      }
+    },
+    "2": {
+      "title": "Aims and objectives of the project ",
+      "id": "5.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "Agile",
+          "id": "28.gd127aecf1fbf68d49",
+          "ideas": {
+            "1": {
+              "title": "Continuous Delivery",
+              "id": "29.gd127aecf1fbf68d49",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "2": {
+          "title": "Performance under load to stay ahead of production maximum",
+          "id": "30.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "3": {
+          "title": "Data Integrity",
+          "id": "31.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "4": {
+          "title": "100% Uptime",
+          "id": "32.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "5": {
+          "title": "Automation - of builds, migration, testing, release",
+          "id": "33.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "6": {
+          "title": "Tie testing to the story (ids, mingle, check-ins, releases) (as regulatory requirement)?",
+          "id": "34.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "7": {
+          "title": "Be responsive/adapt but be realistic",
+          "id": "40.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "6.5": {
+          "title": "Business owners understood Agile process and made request accordingly so timetable was fine grained and achieveable",
+          "id": "67.gd5469ffdcca5be846",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff9900"
+        }
+      }
+    },
+    "3": {
+      "title": "The project timetable ",
+      "id": "8.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "Stories, epic and milestones defined the timetable instead of one bid deadline, it was easy to see the progress and manage and change if necessary",
+          "id": "17.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "2": {
+          "title": "Do we have dates for this? Beyza: I am not aware of any but maybe we can get something from Mingle?",
+          "id": "106.gd5252d33101f8141c",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Important Dates",
+          "id": "296.gd754c9cd6c89030c9",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "0.5": {
+          "title": "We had several project over the years as business grew and changed direction but always done it small itterative steps and reached the deadline on time or early",
+          "id": "58.gd29b05422685fdf33",
+          "ideas": {
+            "1": {
+              "title": "First exchange - 4 years in development",
+              "id": "141.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "covers retail vs banks interactions",
+                  "id": "144.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": "Second exchange - less than 1 year",
+              "id": "143.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "covers bank vs bank interactions",
+                  "id": "145.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Third exchange - about 2 months",
+              "id": "146.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "covers hedge funds vs banks",
+                  "id": "147.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "Several production like environments",
+              "id": "148.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "2 for clients to test in; 1 for deployment rehearsals",
+                  "id": "149.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    },
+    "5": {
+      "title": "How did this project achieve best practice ",
+      "id": "12.gd29b05422685fdf33",
+      "ideas": {
+        "2": {
+          "title": "Automation made it easy to test regression which is one thing hits the projects badly",
+          "id": "21.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Involving business from the early stages, mid story showcase and asking Business directly ***",
+          "id": "43.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "5": {
+          "title": "It was decided at the begining it would be an Agile enviroment and whole company aware of that",
+          "id": "60.gd29b05422685fdf33",
+          "ideas": {
+            "1": {
+              "title": "Recruitment was based on Agile culture and TDD experience and willingness ",
+              "id": "54.gd29b05422685fdf33",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Team members that contributed to upholding the Agile process",
+                  "id": "107.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "Dave Farley ",
+                      "id": "108.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "author of Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation ",
+                          "id": "117.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Martin Thompson",
+                      "id": "110.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "http://mechanical-sympathy.blogspot.co.uk/",
+                          "id": "114.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Mike Barker",
+                      "id": "111.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "http://bad-concurrency.blogspot.co.uk/",
+                          "id": "115.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Trisha Gee",
+                      "id": "113.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "http://mechanitis.blogspot.co.uk/",
+                          "id": "116.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "5": {
+                      "title": "Alan Richardson",
+                      "id": "131.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "author of Selenium Simplified; Java for Testers",
+                          "id": "132.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "www.eviltester.com",
+                          "id": "133.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "6": {
+                      "title": "Adrian Rapan",
+                      "id": "187.gd804ad6700577196",
+                      "ideas": {
+                        "1": {
+                          "title": "www.testfeed.co.uk",
+                          "id": "188.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "Speaker at Eurostar Conference",
+                          "id": "189.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Agile, continuous delivery which was supported and fit in the business. As a start up we change our targets few times so not much time wasted",
+              "id": "18.gd29b05422685fdf33",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    },
+    "6": {
+      "title": "Were there any unique factors that separated this project from others ",
+      "id": "14.gd29b05422685fdf33",
+      "ideas": {
+        "2": {
+          "title": "I'm not sure what we want here? Beyza: Maybe we can talk about LMAX uniquness and explain the wide range of coverage as it is an exchange which is usually divided in number of departments?",
+          "id": "104.gd5252d33101f8141c",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Business + technology involvement",
+          "id": "118.gd804ad6700577196",
+          "ideas": {
+            "1": {
+              "title": "Weekly stand ups with business for prioritisation",
+              "id": "123.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "anybody is welcomed and encouraged to join and make a case for a story",
+                  "id": "124.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "5": {
+          "title": "The Team",
+          "id": "134.gd804ad6700577196",
+          "ideas": {
+            "2": {
+              "title": "Rotation",
+              "id": "261.gd455f297205cd0519",
+              "ideas": {
+                "1": {
+                  "title": "Everybody rotates through 4 feature teams, production support, Information Systems (IS) team",
+                  "ideas": {
+                    "1": {
+                      "title": "Close monitoring of who rotates in order to avoid pairing with the same colleagues",
+                      "ideas": {
+                        "1": {
+                          "title": "Using names in the comments of commits for tracking pairing",
+                          "id": "264.gd455f297205cd0519",
+                          "attr": {
+                            "style": {
+                              "background": "#ffcc00"
+                            }
+                          }
+                        }
+                      },
+                      "id": "263.gd455f297205cd0519",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    }
+                  },
+                  "id": "262.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Pair programming as the standard rather than the exception",
+              "id": "265.gd455f297205cd0519",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "4": {
+              "title": "Knowledge",
+              "ideas": {
+                "1": {
+                  "title": "Our testers know what garbage collection means and how it can impact the exchange",
+                  "ideas": {},
+                  "id": "269.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "All testers know how to test the whole exchange from 3rd party integration to Disaster Recovery",
+                  "id": "270.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "id": "268.gd455f297205cd0519",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "5": {
+              "title": "Team members are free to innovate",
+              "ideas": {
+                "1": {
+                  "title": "Everybody has side projects on which they work during office hours",
+                  "ideas": {
+                    "1": {
+                      "title": "From FIX messaging tools to finding better/faster ways to run our acceptance tests",
+                      "id": "273.gd455f297205cd0519",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    }
+                  },
+                  "id": "272.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "id": "271.gd455f297205cd0519",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "12": {
+          "title": "Continuous industry presence ",
+          "id": "234.gd2c9128f4a299438a",
+          "ideas": {
+            "2": {
+              "title": "IT Industry leaders mentioning LMAX",
+              "ideas": {
+                "1": {
+                  "title": "Martin Fowler does an indepth analysis of LMAX arhitecture",
+                  "ideas": {
+                    "1": {
+                      "title": "http://martinfowler.com/articles/lmax.html",
+                      "id": "276.gd455f297205cd0519",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    }
+                  },
+                  "id": "275.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Gojko Adzic mentions LMAX in his book \"Specification by Example\"",
+                  "ideas": {},
+                  "id": "277.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "id": "274.gd455f297205cd0519",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Conferences",
+              "id": "278.gd455f297205cd0519",
+              "ideas": {
+                "1": {
+                  "title": "InfoQ, Java One, Eurostar, Testing in Finance, Devoxx, LJC Open Conference, Google Test Automation Conference, Selenium Conference",
+                  "id": "279.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "15": {
+          "title": "Technology",
+          "id": "280.gd455f297205cd0519",
+          "ideas": {
+            "1": {
+              "title": "Testing",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Automate user story at a fast pace",
+                  "ideas": {
+                    "1": {
+                      "title": "Shallow learning curve",
+                      "id": "289.gd455f297205cd0519",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Testers commit their first acceptance test in less than 1 day",
+                      "id": "290.gd455f297205cd0519",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    }
+                  },
+                  "id": "288.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "id": "287.gd455f297205cd0519"
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "16": {
+          "title": "Process",
+          "id": "291.gd455f297205cd0519",
+          "ideas": {
+            "1": {
+              "title": "Agile",
+              "id": "292.gd455f297205cd0519",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "2": {
+              "title": "Everybody owns quality",
+              "id": "293.gd455f297205cd0519",
+              "ideas": {
+                "1": {
+                  "title": "Testers are not a bottleneck for releasing into production",
+                  "id": "294.gd455f297205cd0519",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ffcc00"
+        }
+      }
+    },
+    "16": {
+      "title": "Value delivered throughout all stages of the project ",
+      "id": "11.gd29b05422685fdf33",
+      "attr": {
+        "style": {
+          "background": "#ffcc00"
+        }
+      },
+      "ideas": {
+        "2": {
+          "title": "User stories delivered",
+          "id": "66.gd7a472680c65c28f4",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Business streams",
+              "id": "125.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "Split of development work to accommodate all areas of the business",
+                  "id": "126.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "10% quick wins",
+                      "id": "127.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "70% feature development",
+                      "id": "128.gd804ad6700577196",
+                      "ideas": {},
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "20% tech debt",
+                      "id": "130.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#ffcc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "relatively few production issues",
+          "id": "67.gd7a472680c65c28f4",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Quick testing / resolution of  prod issues",
+              "id": "72.gd4292e868a8e81663",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "rare slippage of releases",
+          "id": "68.gd7a472680c65c28f4",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "2.5": {
+          "title": "Confidence in builds and release candidates",
+          "id": "63.gd7a472680c65c28f4",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "failing tests written before code",
+              "id": "69.gd7a472680c65c28f4",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "2": {
+              "title": "early visibility of potential issues",
+              "id": "70.gd4292e868a8e81663",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Showcases to ensure what is delivered",
+              "id": "73.gd4292e868a8e81663",
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "General overview of the project undertaken ",
+      "id": "3.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "INTRO: LMAX Exchange is the first FSA regulated MTF for FX Trading. Established to deliver the benefits \nof exchange execution, LMAX Exchange offers pre and post-trade transparency, \nprecise execution and a level playing field for all market participants.\nClients benefit from superior low latency trading with an average matching \nspeed of 3ms in over 60 FX pairs. LMAX Exchange offers multiple connectivity\noptions: Direct APIs (.NET, Java), FIX 4.4, leading MT4 bridge providers, \nWeb GUI.",
+          "id": "2.gd127aecf1fbf68d49",
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {}
+        }
+      }
+    },
+    "-2": {
+      "title": "Methodology used ",
+      "id": "7.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "Agile",
+          "id": "74.gd46d8ff71720bea6d",
+          "ideas": {
+            "1": {
+              "title": "Exploratory Testing",
+              "id": "76.gd46d8ff71720bea6d",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "2": {
+              "title": "CI",
+              "id": "78.gd46d8ff71720bea6d",
+              "ideas": {
+                "1": {
+                  "title": "Fast Feedback - commit build (10 min), CI run of regression test (50 min), analysis (), compatibility (2 hour)",
+                  "id": "336.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "3": {
+              "title": "Automation",
+              "id": "79.gd46d8ff71720bea6d",
+              "ideas": {
+                "1": {
+                  "title": "DSL",
+                  "id": "81.gd46d8ff71720bea6d",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "6000 ATs, xx ITs, xx Unit",
+                  "id": "82.gd46d8ff71720bea6d",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "4": {
+              "title": "Tools",
+              "id": "80.gd46d8ff71720bea6d",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "5": {
+              "title": "Lean/Kanban",
+              "id": "248.gd2c9128f4a299438a",
+              "ideas": {
+                "2": {
+                  "title": "Past",
+                  "id": "250.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Business pushing which stories to be done in an iteration",
+                      "id": "251.gd2c9128f4a299438a",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Has evolved - responding to changing business focus: Betfair with UI (for end user traders) to FIX for Brokers - the business changed and the testing changed with it",
+                      "id": "48.gd127aecf1fbf68d49",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Present",
+                  "id": "252.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Backlog of stories from which the team can pull any story when current one is finished ",
+                      "id": "253.gd2c9128f4a299438a",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Used to be iterations and story size - with experience and trust no longer have story size and iterations/releases are becoming divorced",
+                      "id": "56.gd127aecf1fbf68d49",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Future",
+                  "id": "255.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Working towards removing the need for a 2 week iteration and deploying as soon as story is finished",
+                      "id": "256.gd2c9128f4a299438a",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "6": {
+              "title": "Continuous Delivery",
+              "id": "75.gd46d8ff71720bea6d",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "7": {
+              "title": "TDD from beginning\nAcceptance Tests, \nIntroduction of Selenium, DSL, Continuous Delivery, Big Feedback,\nPerformance,\nCompatibility",
+              "id": "337.gd754c9cd6c89030c9",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        },
+        "6": {
+          "title": "Monitoring",
+          "id": "335.gd754c9cd6c89030c9",
+          "ideas": {},
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ccff"
+        }
+      }
+    },
+    "-3": {
+      "title": "Details on any specific technologies used ",
+      "id": "9.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "Java",
+          "id": "83.gd1904b9e313fc15",
+          "ideas": {},
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        },
+        "2": {
+          "title": "MySQL",
+          "id": "84.gd1904b9e313fc15",
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        },
+        "3": {
+          "title": "Rapid Addition",
+          "id": "85.gd1904b9e313fc15",
+          "ideas": {
+            "1": {
+              "title": "FIX Messenger, Excel FIx",
+              "id": "101.gd5252d33101f8141c",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        },
+        "4": {
+          "title": "LBM/Sail/Spring/Guice",
+          "id": "87.gd1904b9e313fc15",
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        },
+        "5": {
+          "title": "I think we should link tech used to tools for testing? Beyza: Agree such as excelfix maybe we can give few more examples like Burp suite or Wireshark etc",
+          "id": "103.gd5252d33101f8141c",
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ccff"
+        }
+      }
+    },
+    "-5": {
+      "title": "How was the success of the project measured ",
+      "id": "13.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "As the project broken down to stories as small as possible, it makes it easier to measure the progress",
+          "id": "25.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "2": {
+          "title": "Project success can be measured by staff's experience , satisfied staff as well as satisfied customers -internal and external",
+          "id": "27.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Low Bug count so project progress fast instead of keep fixing same problem",
+          "id": "41.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "4": {
+          "title": "Already earned few awards  such as prestigious Java Duke Award",
+          "id": "49.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "5": {
+          "title": "FSA regulated business success closely monitored as it would be fined or even shut of not succesful ",
+          "id": "59.gd29b05422685fdf33",
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    },
+    "-6": {
+      "title": "Give clear details of innovation in the project ",
+      "id": "16.gd29b05422685fdf33",
+      "ideas": {
+        "9": {
+          "title": "Technology",
+          "id": "162.gd804ad6700577196",
+          "ideas": {
+            "2": {
+              "title": "Continuous Delivery",
+              "ideas": {
+                "1": {
+                  "title": "Scotty",
+                  "id": "166.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Romero",
+                  "ideas": {
+                    "1": {
+                      "title": "Custom built network for driving parallel, sequential, time travel acceptance tests",
+                      "ideas": {},
+                      "id": "168.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "id": "167.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Terminator",
+                  "ideas": {
+                    "1": {
+                      "title": "Works with the build sheriff to ensure the build is kept in a healthy state",
+                      "ideas": {
+                        "1": {
+                          "title": "Has the ability to stop commits until breakages in Acceptance Tests are fixed",
+                          "id": "172.gd804ad6700577196",
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            }
+                          }
+                        }
+                      },
+                      "id": "171.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "id": "170.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Nostradamus,",
+                  "id": "339.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "id": "165.gd804ad6700577196",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "3": {
+              "title": "Open sourced projects https://github.com/LMAX-Exchange",
+              "id": "173.gd804ad6700577196",
+              "ideas": {
+                "1": {
+                  "title": "Disruptor",
+                  "id": "174.gd804ad6700577196",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "High Performance Inter-Thread Messaging Library",
+                      "id": "182.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Freud",
+                  "id": "176.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "Static analysis of code; enforces adherence to pre-defined code syntax, code structure, clean code",
+                      "id": "177.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Parallel jUnit",
+                  "id": "178.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "Custom JUnit runner for driving acceptance tests in parallel; can be used to drive up to 8 tests at the same time",
+                      "id": "179.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "LMAX Collections",
+                  "id": "180.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "A High Performance Collections Library",
+                      "id": "181.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Simple DSL",
+                  "id": "183.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "Utilities to write a simple DSL in Java",
+                      "id": "184.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "6": {
+                  "title": "LMAX System Tools",
+                  "id": "185.gd804ad6700577196",
+                  "ideas": {
+                    "1": {
+                      "title": "Helpful system tools and scripts",
+                      "id": "186.gd804ad6700577196",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "4": {
+              "title": "DSL",
+              "ideas": {
+                "1": {
+                  "title": "Acceptance tests",
+                  "ideas": {
+                    "1": {
+                      "title": "They cover everything from API level tests to UI",
+                      "id": "192.gd19b334ec3781fa25",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "id": "191.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "id": "190.gd19b334ec3781fa25",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "5": {
+              "title": "Big Feedback",
+              "ideas": {
+                "1": {
+                  "title": "Autotrish",
+                  "id": "194.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Nostradamus",
+                  "id": "195.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Magic Eight Ball",
+                  "id": "196.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Active Issue List",
+                  "id": "197.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Perf Test Results",
+                  "id": "198.gd19b334ec3781fa25",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "id": "193.gd19b334ec3781fa25",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "6": {
+              "title": "Instead of off the shelf methods we tailred them to our own enviroment  such as our own unique Kanban board",
+              "id": "199.gd19b334ec3781fa25",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "7": {
+              "title": "Cake Driven Development",
+              "id": "200.gd19b334ec3781fa25",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "9": {
+              "title": "Monitoring",
+              "id": "211.gd2c9128f4a299438a",
+              "ideas": {
+                "1": {
+                  "title": "Jodie",
+                  "id": "213.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Measures everything from memory usage to number of messages flowing through the system",
+                      "id": "217.gd2c9128f4a299438a",
+                      "ideas": {
+                        "1": {
+                          "title": "Offers comprehensive graphs to help analyse and debug both business requests and production issues",
+                          "id": "218.gd2c9128f4a299438a",
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Ugly betty",
+                  "id": "214.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Real time monitoring of the health status of the exchanges",
+                      "id": "219.gd2c9128f4a299438a",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Juliet",
+                  "id": "215.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Testing in Live",
+                      "id": "216.gd2c9128f4a299438a",
+                      "ideas": {
+                        "1": {
+                          "title": "Monitors if services can still fulfill their business intent",
+                          "id": "224.gd2c9128f4a299438a",
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "Can be run at any point in time and offers increased reliance into the success of a release",
+                          "id": "225.gd2c9128f4a299438a",
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Eye of providence",
+                  "id": "220.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Fault alerting system",
+                      "id": "221.gd2c9128f4a299438a",
+                      "ideas": {
+                        "1": {
+                          "title": "Alerts when vital exchange functions are in danger of running out of resources",
+                          "id": "222.gd2c9128f4a299438a",
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "5": {
+                  "title": " Trade Archaeology",
+                  "id": "340.gd754c9cd6c89030c9",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                },
+                "6": {
+                  "title": "FIX Probe",
+                  "id": "208.gd2c9128f4a299438a",
+                  "ideas": {
+                    "1": {
+                      "title": "Real-time analysis of FIX messages",
+                      "id": "209.gd2c9128f4a299438a",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "10": {
+              "title": "Switching to a new data centre with zero down time and in less than 6 months",
+              "id": "242.gd2c9128f4a299438a",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            },
+            "11": {
+              "title": "Azul JVM integration",
+              "ideas": {
+                "1": {
+                  "title": "provides a lower latency for trading",
+                  "id": "245.gd2c9128f4a299438a",
+                  "attr": {
+                    "style": {
+                      "background": "#00ccff"
+                    }
+                  }
+                }
+              },
+              "id": "244.gd2c9128f4a299438a",
+              "attr": {
+                "style": {
+                  "background": "#00ccff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#00ccff"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ccff"
+        }
+      }
+    },
+    "-16": {
+      "title": "Overall benefits and value proposition ",
+      "id": "10.gd29b05422685fdf33",
+      "ideas": {
+        "1": {
+          "title": "Short feedback cycle, ",
+          "id": "23.gd7a472680c65c28f4",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        },
+        "2": {
+          "title": "collaboration - Dev/ Qa / Ba/Business ",
+          "id": "98.gd5252d33101f8141c",
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ffcc00"
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "style": {
+      "background": "#c0c0c0"
+    }
+  }
+}
