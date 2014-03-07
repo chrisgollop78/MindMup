@@ -116,7 +116,12 @@
           "ideas": {
             "1": {
               "title": "Add if Give Up Trades are added to download",
-              "id": 50
+              "id": 50,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
             }
           }
         },
