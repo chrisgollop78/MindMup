@@ -171,6 +171,10 @@
             "3": {
               "title": "Only added to TRS.trade table",
               "id": 45
+            },
+            "4": {
+              "title": "To be set by TRS and not leaked externally",
+              "id": 56
             }
           }
         }
@@ -262,7 +266,12 @@
             },
             "2": {
               "title": "Should not be able to enter the \"give up\" for a Contra Trade",
-              "id": 30
+              "id": 30,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
             }
           }
         },
@@ -305,8 +314,19 @@
               "id": 5,
               "ideas": {
                 "1": {
-                  "title": "This is not emitted by Trade Reporting",
-                  "id": 38
+                  "title": "This cancels out and is not emitted by Trade Reporting",
+                  "id": 38,
+                  "ideas": {
+                    "1": {
+                      "title": "Same for LMAX v LMAX when LMAX is Sponsor and Broker ",
+                      "id": 55,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
