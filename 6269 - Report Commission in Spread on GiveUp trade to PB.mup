@@ -56,11 +56,11 @@
           },
           "ideas": {
             "1": {
-              "title": "Sponsored v LMAX Broker customer, if LMB v LMB is cancelled does it mean LMB gets a position?",
+              "title": "Sponsored v LMAX Broker customer, if LMB v LMB is cancelled does it mean LMB gets a position? - No this is internal and dealt with.",
               "id": 54,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               }
             }
