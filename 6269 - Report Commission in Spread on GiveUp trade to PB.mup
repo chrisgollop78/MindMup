@@ -53,6 +53,17 @@
             "style": {
               "background": "#008000"
             }
+          },
+          "ideas": {
+            "1": {
+              "title": "Sponsored v LMAX Broker customer, if LMB v LMB is cancelled does it mean LMB gets a position?",
+              "id": 54,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
           }
         },
         "2": {
@@ -71,7 +82,8 @@
             "style": {
               "background": "#008000"
             }
-          }
+          },
+          "ideas": {}
         },
         "4": {
           "title": "Commission in Spread Contra and Off Order Book",
@@ -81,7 +93,17 @@
               "background": "#008000"
             }
           },
-          "ideas": {}
+          "ideas": {
+            "1": {
+              "title": "Contra Trade spread is widened as normal meaning the contra is a t a different, widened, price for the Commission In Spread trader",
+              "id": 53,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
+          }
         },
         "5": {
           "title": "Trade Download for Commission In Spread Trades",
@@ -103,13 +125,18 @@
           "id": 49,
           "attr": {
             "style": {
-              "background": "#ff0000"
+              "background": "#008000"
             }
           },
           "ideas": {
             "1": {
               "title": "Trade Report ID for BNP are sent with BNP_ but recorded  as the ID without the prefix",
-              "id": 51
+              "id": 51,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
             }
           }
         }
