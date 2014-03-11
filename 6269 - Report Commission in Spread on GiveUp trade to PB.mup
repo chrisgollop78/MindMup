@@ -303,6 +303,17 @@
                 "style": {
                   "background": "#ff0000"
                 }
+              },
+              "ideas": {
+                "1": {
+                  "title": "ATs to be added",
+                  "id": 68,
+                  "attr": {
+                    "style": {
+                      "background": "#ff0000"
+                    }
+                  }
+                }
               }
             }
           }
