@@ -131,6 +131,14 @@
                   "title": "Not Commission In Spread",
                   "id": 60,
                   "ideas": {}
+                },
+                "3": {
+                  "title": "Sponsored v GM",
+                  "id": 64
+                },
+                "4": {
+                  "title": "Sponsored v Sponsored",
+                  "id": 65
                 }
               }
             }
@@ -330,25 +338,41 @@
           "id": 3,
           "ideas": {
             "1": {
-              "title": "Sponsor v General Member",
+              "title": "Sponsored v General Member",
               "id": 4
             },
             "2": {
-              "title": "Sponsor v Sponsor",
+              "title": "Sponsored v Sponsored",
               "id": 5,
               "ideas": {
                 "1": {
                   "title": "This cancels out and is not emitted by Trade Reporting",
                   "id": 38,
-                  "ideas": {
-                    "1": {
-                      "title": "Same for LMAX v LMAX when LMAX is Sponsor and Broker ",
-                      "id": 55,
-                      "attr": {
-                        "style": {
-                          "background": "#E0E0E0"
-                        }
-                      }
+                  "ideas": {}
+                }
+              }
+            },
+            "3": {
+              "title": "Sponsor Broker v Sponsored by Same Sponsor Broker",
+              "id": 66,
+              "ideas": {
+                "1": {
+                  "title": "Same for LMAX v LMAX when LMAX is Sponsor and Broker ",
+                  "id": 55,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  },
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "This cancels out and is not emitted by Trade Reporting",
+                  "ideas": {},
+                  "id": 67,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
                     }
                   }
                 }
