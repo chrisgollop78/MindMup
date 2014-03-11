@@ -115,11 +115,21 @@
           },
           "ideas": {
             "1": {
-              "title": "Add if Give Up Trades are added to download",
+              "title": "Add AT for Give Up Tradesin trade download",
               "id": 50,
               "attr": {
                 "style": {
                   "background": "#ff0000"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Commission In Spread",
+                  "id": 59
+                },
+                "2": {
+                  "title": "Not Commission In Spread",
+                  "id": 60
                 }
               }
             }
@@ -162,6 +172,18 @@
               "attr": {
                 "style": {
                   "background": "#ff0000"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Yes",
+                  "id": 58,
+                  "ideas": {
+                    "1": {
+                      "title": "ATs to be added",
+                      "id": 61
+                    }
+                  }
                 }
               }
             },
