@@ -95,11 +95,11 @@
           },
           "ideas": {
             "1": {
-              "title": "Contra Trade spread is widened as normal meaning the contra is a t a different, widened, price for the Commission In Spread trader",
+              "title": "Contra Trade spread is widened as normal meaning the contra is a t a different, widened, price for the Commission In Spread trader - this is OK, we do manual steps to resolve.",
               "id": 53,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               }
             }
@@ -135,13 +135,14 @@
           },
           "ideas": {
             "1": {
-              "title": "Trade Report ID for BNP are sent with BNP_ but recorded  as the ID without the prefix",
+              "title": "Trade Report ID for BNP are sent with BNP_ but recorded  as the ID without the prefix -   intended to be short lived and was applied only when assembling the FIX message, not in the TRS. ",
               "id": 51,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
-              }
+              },
+              "ideas": {}
             }
           }
         }
