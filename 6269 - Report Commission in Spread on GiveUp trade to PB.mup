@@ -36,6 +36,17 @@
                 "style": {
                   "background": "#ff0000"
                 }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Data Warehouse?",
+                  "id": 71,
+                  "attr": {
+                    "style": {
+                      "background": "#ff0000"
+                    }
+                  }
+                }
               }
             }
           }
@@ -110,7 +121,7 @@
           "id": 48,
           "attr": {
             "style": {
-              "background": "#ff0000"
+              "background": "#008000"
             }
           },
           "ideas": {
@@ -119,26 +130,56 @@
               "id": 50,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               },
               "ideas": {
                 "1": {
                   "title": "Commission In Spread",
-                  "id": 59
+                  "id": 59,
+                  "ideas": {
+                    "1": {
+                      "title": "Sponsored v GM",
+                      "id": 64,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Sponsored v Sponsored",
+                      "id": 65,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Sponsor v Sponsee",
+                      "id": 70
+                    }
+                  }
                 },
                 "2": {
                   "title": "Not Commission In Spread",
                   "id": 60,
-                  "ideas": {}
-                },
-                "3": {
-                  "title": "Sponsored v GM",
-                  "id": 64
-                },
-                "4": {
-                  "title": "Sponsored v Sponsored",
-                  "id": 65
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "When filtering by MTF Member you will only get the gives up trades for Sponsored Members",
+              "id": 69,
+              "attr": {
+                "style": {
+                  "background": "#008000"
                 }
               }
             }
@@ -180,7 +221,7 @@
               "id": 43,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               },
               "ideas": {
@@ -190,7 +231,17 @@
                   "ideas": {
                     "1": {
                       "title": "ATs to be added",
-                      "id": 61
+                      "id": 61,
+                      "attr": {
+                        "style": {
+                          "background": "#008000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
                     }
                   }
                 }
@@ -301,7 +352,7 @@
               "id": 30,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               },
               "ideas": {
@@ -310,7 +361,7 @@
                   "id": 68,
                   "attr": {
                     "style": {
-                      "background": "#ff0000"
+                      "background": "#008000"
                     }
                   }
                 }
@@ -332,7 +383,18 @@
               "id": 24,
               "attr": {
                 "style": {
-                  "background": "#E0E0E0"
+                  "background": "#ff0000"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "ATs",
+                  "id": 73,
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
                 }
               }
             }
