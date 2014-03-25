@@ -16,7 +16,7 @@
               "id": 18,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               }
             },
@@ -25,27 +25,27 @@
               "id": 19,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
-                }
-              }
-            },
-            "3": {
-              "title": "Integrity between Trade Report tables and tfx_trade.trade table",
-              "id": 46,
-              "attr": {
-                "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               },
               "ideas": {
                 "1": {
-                  "title": "Data Warehouse?",
-                  "id": 71,
+                  "title": "Theoretically... tryout in Staging",
+                  "id": 74,
                   "attr": {
                     "style": {
                       "background": "#ff0000"
                     }
                   }
+                }
+              }
+            },
+            "4": {
+              "title": "Data Warehouse?",
+              "id": 71,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
                 }
               }
             }
@@ -383,7 +383,7 @@
               "id": 24,
               "attr": {
                 "style": {
-                  "background": "#ff0000"
+                  "background": "#008000"
                 }
               },
               "ideas": {
